@@ -1,3 +1,3 @@
 class Article < ApplicationRecord
-  balidates_presence(:title)
+  validates :title, presence: true
 end
